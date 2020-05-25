@@ -1,0 +1,59 @@
+body {
+  font-family: "Courgette";
+  font-size: 16px;
+  background-color: #004e96;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+section {
+  /* vh stands for viewport height, relative    to browser window */
+  height: 100vh;
+  background-image: url("sally_1.jpg");
+  background-size: cover;
+  /* Fixes background to the viewport instead of the sections */
+  background-attachment:  fixed;
+}
+
+header {
+  /* Using fixed position allows us to precisely position an element in relation to the browser viewport */
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  /* margin used when creating space between elements on our page */
+  margin-bottom: 5px;
+}
+
+/* This will select only a tags thats are inside footer tags */
+footer a {
+  margin-right: 5px;
+}
+
+/*apply styles on elements based on hovering over them, clicking them, etc. This is called a pseudo selector */
+a:hover {
+  color: #dddddd;
+}
+.image_2 {
+  background-image: url("sally_2.jpg");
+}
+.image_3 {
+  background-image: url("sally_3.jpg");
+}
+
+.image_4 {
+  background-image: url("sally_4.jpg");
+}
